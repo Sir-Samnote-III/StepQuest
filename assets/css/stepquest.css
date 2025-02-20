@@ -1,0 +1,617 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: #002366;
+    font-family: 'Antonio', sans-serif;
+    -webkit-text-stroke: 1px #002366;
+}
+
+
+H2{ text-align: center;
+    font-family: 'Open Sans';
+}
+.H2.vuxen{
+    text-align:center;
+    font-family:'Open Sans';
+    color:#e6e6fa;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    gap: 10px; /* Adds spacing between images */
+}
+
+.container img {
+    width: 175px; /* Adjust the width as needed */
+    height: auto;
+}
+
+H3{
+    font-family:arial;
+    color:#e6e6fa;
+    text-align: center;
+    /* background-color: #ECF1F4; */
+}
+P,LI,dt,dd{
+    color: #e6e6fa;
+}
+
+.grid-container {
+    display: flex;
+    width: 100%; /* Full width for the container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color:#e6e6fa;
+    gap:20px;
+}
+.grid-container2 {
+    display: flex;
+    width: 100%; /* Full width for the container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    color:#e6e6fa;
+    gap:20px;
+}
+
+.cell {
+    background-color: #002366;
+    padding: 20px;
+    border-radius: 20px;
+    width: 690px;
+}/*^Cell för huvudtext^*/
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+.navigationCell{            /*Cell for navigation. i.e Hem, Hantera Stepcoins, Statistik, Socialt*/
+    background-color: #002366;
+    padding: 20px;
+    border-radius: 26px;
+    width: 128px;
+    height: 7px;
+}
+
+/*Centers the text in the navigation cells down below*/
+p.hem{
+    margin-top: -10px;
+    margin-left: 47px;
+    font-size: 17px;
+    font-family: 'DM Serif Display', serif;
+}
+
+p.hanteraStepCoins{
+    margin-top: -10px;
+    margin-left: -10px;
+    font-size: 17px;
+    white-space: nowrap;/*Makes it so that "Hantera StepCoins" appears in one line.*/
+    font-family: 'DM Serif Display', serif;
+}
+
+p.statistik{
+    margin-top: -10px;
+    margin-left: 31px;
+    font-size: 17px;
+    font-family: 'DM Serif Display', serif;
+}
+p.socialt{
+    margin-top: -10px;
+    margin-left: 37px;
+    font-size: 17px;
+    font-family: 'DM Serif Display', serif;
+  }
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+.stepquest-container { /*for index*/
+    display: grid;
+    width: 100%; /* Full width for the container */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.indexcell {/*for index*/
+    background-color: #e6e6fa;
+    padding: 20px;
+    border-radius: 20px;
+    width: 690px;
+}/*^Cell för huvudtext^*/
+
+
+.a{
+    color: #c8f9f9;
+}
+
+.a.special-link{
+    color:#c8f9f9;
+}
+.a.barn{
+    color:#ace1af;
+}
+
+body{
+    background-color: #122348;
+    padding-top:40px;
+}
+.body.barn{
+    background-color:#ace1af;
+    padding-top:40px;
+}
+.wrapper{
+    background-color: #e6e6fa;
+    width:800px;
+    margin:auto;
+    border: 5px #8D99AE;
+    border-style:inset;
+    border-radius: 50px;
+    overflow:hidden;
+}
+.wrapper.barn{
+    background-color: #e6e6fa;
+    width:800px;
+    margin:auto;
+    border: 5px #8D99AE;
+    border-radius: 50px;
+    overflow:hidden;
+}
+
+.sidfot{
+    background-color:#2f5972;
+    width: 100%;
+    padding:0;
+    margin-bottom: -2%;
+    text-align: center;
+    padding:10px;
+}
+table{
+    border:#002366 5px;
+    border-color:#002366;
+    background-color: #e6e6fa;
+    border-collapse: collapse;
+}
+th, td {
+    border: 5px solid #002366;
+    padding: 5px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	word-break: break-word;
+	width:500px ;
+    color: #002366;
+    font-size:larger;
+
+}
+
+#dbres tr:nth-child(odd) {
+	background-color:lightgray;
+}
+#dbres tr:first-child {
+	background-color:darkgray;
+}
+
+.imgRight {
+	float: right;
+	margin-right:10%;
+	margin-top:5%;
+	transition: width 2s, height 2s, transform 2s;
+}
+
+.imgRight:hover {
+	width:20%;
+	height:20%;
+	transform:rotate(180deg);
+}
+.textFiled {
+	width:28em;
+	background-color:white;
+}
+
+fieldset {
+    border-radius: 10px; /* Adjust this value to change the roundness */
+    padding: 1px; /* Add padding to avoid content from touching the rounded edges */
+    border: 2px solid #122348; /* Optional: Adds a border around the fieldset */
+}
+
+
+dl{
+    margin-left:10px;
+}
+
+.margin{
+    margin-right:5px;
+    margin-left:5px;
+}
+
+
+
+.center{
+    align-items: center;
+    align-content: center;
+    width:100%;
+    margin-left:20%;
+}
+.centertext{
+    text-align: center;
+    font-size:large;
+}
+
+
+
+
+.indexColor2{
+    color: #e6e6fa;
+}
+
+.indexColor{
+    color:#122348;
+}
+
+
+/* Style for input fields */
+input[type="text"], input[type="password"], input[type="email"] {
+    background-color: #122348; /* Light blue color for example */
+    color: #e6e6fa; /* Text color */
+    padding: 5px; /* Padding inside the input field */
+    border-radius: 15px; /* Rounded corners */
+}
+
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #e6e6fa; /* Placeholder text color */
+}
+input[type="submit"] {
+    background-color: #2f5972; /* Change this color to your desired button color */
+    color: white; /* Text color */
+    padding: 5px 10px; /* Adjust padding to make the button larger or smaller */
+    border: none; /* Removes the default border */
+    border-radius: 12px; /* Rounded corners */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+    font-size: 16px; /* Font size of the text */
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Optional: Change color when the button is hovered */
+input[type="submit"]:hover {
+    background-color: #122348; /* A slightly darker shade of the original button color */
+}
+
+.stepcoin-input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.stepcoin-prefix {
+    position: absolute;
+    left: 105px; /* Adjust the spacing to match your layout */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none; /* Prevent interaction with the text */
+    color: gray; /* Adjust the color to fit your theme */
+    font-size: 14px; /* Match your input font size */
+}
+
+
+
+
+
+
+
+/* ^Menu icon^ */
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Menu Items (Hidden by Default) */
+.menu-items {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    position: absolute; /* Dropdown menu position */
+    margin-top: -2cm; /* Place below the menu icon */
+    margin-left: 23cm; /* Align with menu icon */
+    background-color: #e6e6fa;
+    padding: 23px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it appears above other elements */
+    width: 200px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #002366;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.menu-items a:last-child {
+    border-bottom: none; /* Remove border for the last item */
+}
+
+.menu-items a:hover {
+    background-color: #002366;
+    color: #fff;
+}
+
+/* Show Menu When Active */
+.menu-items.show {
+    display: flex; /* Show dropdown */
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #e6e6fa; /* Same background as the other tabs */
+    color: #002366; /* White text color */
+    padding: 10px 20px; /* Same size as other tabs */
+    font-size: 16px;
+    border: none; /* Remove border for a clean look */
+    border-radius: 8px; /* Rounded corners to match other tabs */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+.dropdown-content {
+    max-height: 0; /* Start fully collapsed */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #e6e6fa; /* Match tab background color */
+    border-radius: 8px; /* Same rounded corners as the button */
+    transition: max-height 1s ease, padding 1s ease; /* Smooth expansion */
+    padding: 0; /* Remove padding initially */
+}
+
+.dropdown-content a {
+    color: #002366; /* Match text color of tabs */
+    padding: 10px 20px; /* Same padding as tabs */
+    text-decoration: none; /* Remove underline */
+    display: block; /* Stack links vertically */
+    border-bottom: 1px solid #ccc; /* Subtle border between items */
+    transition: background-color 1s ease; /* Smooth hover effect */
+}
+
+.dropdown-content a:hover {
+    background-color: #002366; /* Same hover color as the button */
+    color: #fff; /* Ensure text is visible */
+}
+
+.dropdown-content.expand {
+    max-height: 500px; /* Adjust to fit content */
+    padding: 10px 0; /* Add padding when expanded */
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination a {
+    padding: 8px 12px;
+    margin: 0 4px;
+    text-decoration: none;
+    background-color: #e6e6fa;
+    color: #002366;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease;
+}
+
+.pagination a:hover {
+    background-color: #002366;
+    color: white;
+}
+
+.pagination a.active {
+    background-color: #002366;
+    color: white;
+    pointer-events: none; /* Disable clicking on the active page */
+}
+
+.pagination .disabled {
+    padding: 8px 12px;
+    margin: 0 4px;
+    background-color: #f0f0f0;
+    color: #999;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: not-allowed; /* Indicate it’s not clickable */
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+.form-row {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 10px; /* Add space between the label and input */
+    margin-bottom: 10px; /* Optional: Add some spacing below the row */
+}
+
+.form-row label {
+    margin-bottom: 0; /* Remove any default margin */
+    white-space: nowrap; /* Prevent the label from wrapping */
+}
+
+/* Css to make the input field for Ange antalet steg X har tagit:  */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------*/
+/* Menu icon down below */
+/* Position the menu button and animate its horizontal movement */
+.menu {
+    position: absolute;
+    top:-5%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    z-index: 1100;
+    /* No transition on left needed since the position remains static */
+    margin-left: 18cm;
+    margin-top:5cm;
+}
+
+/* When open, shift the menu button to the right */
+.menu.open {
+    left: 260px;     /* 10px initial + 250px side nav width */
+}
+
+/* Transform the bars into an X when the button has the "change" class */
+.bar1, .bar2, .bar3 {
+    position: absolute;
+    width: 40px;
+    height: 7px;
+    background-color: #002366;
+    border-radius: 12px;
+    transition: 0.4s ease;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* Style the bars */
+.bar1, .bar2, .bar3 {
+    position: absolute; /* Position each bar relative to .menu */
+    width: 60px; 
+    height: 7px; 
+    background-color: #002366;
+    border-radius: 12px;
+    transition: 0.4s ease;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Offset to center */
+}
+
+/* Space the bars vertically */
+.bar1 {
+    top: 12px; /* Position the first bar higher */
+}
+
+.bar2 {
+    top: 28px; /* Position the middle bar */
+}
+
+.bar3 {
+    top: 44px; /* Position the last bar lower */
+}
+
+/* Rotate first bar to form the upper diagonal of the X */
+.change .bar1 {
+    transform: translateX(-50%) translateY(16px) rotate(45deg); /* Adjust size for larger icon */
+}
+
+/* Hide the second bar to create the X shape */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate the last bar to form the lower diagonal of the X */
+.change .bar3 {
+    transform: translateX(-50%) translateY(-16px) rotate(-45deg); /* Adjust size for larger icon */
+}
+.sidenav {
+    height: 100%;
+    width: 0; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width:750px){
+
+    .cell {
+        padding: 20px;
+        border-radius: 20px;
+        width: 90%;
+        margin-left:2%;   
+        margin-right:2%;
+     }/*^Cell för huvudtext i huvvudsidorna^*/
+
+    .wrapper {
+        width: 100%;
+        border-radius: 15px;
+    }/*Huvvudwrapper*/
+
+    .grid-container {
+        display: grid;
+        color:#e6e6fa;
+        grid-template-columns: auto auto;    
+    }/*Container för navigeringsknapparna*/
+
+    h1 {
+        font-size: 35px;
+    }
+    body{
+        padding-top:1%;
+    }
+    .sidfot{
+        display:none;
+    }/*Tar bort sidfot från mobilversion*/
+
+     .p{
+        font-size:15px;
+     }
+  
+
+     .menu {
+        position:absolute;
+        margin-left: 75%;
+        top:-4cm;
+    }/*Menu position*/
+    
+    .indexcell {/*for index*/
+        padding: 10px;
+        border-radius: 15px;
+        width: 80%;
+        margin:auto;
+    }/*^Cell för huvudtext på login sidan och signup^*/
+    
+    input[type="text"], input[type="password"], input[type="email"] {
+        width:90%;
+    }/*Input fields på login och signup blir bra storlek*/
+
+ 
+    .stepcoin-prefix {
+        left: 90px; /* Adjust the spacing to match your layout */
+    }/*Stepcoin/kr text*/
+
+    .center{
+        align-items: center;
+        align-content: center;
+        width:100%;
+        margin-left:20%;
+    }
+    table{
+        width:105%;
+        margin-left:-2%;
+    }/*Så att inkomst kolumnen har hela texten inkomst i en rad*/
+}
